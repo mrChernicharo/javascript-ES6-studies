@@ -62,6 +62,7 @@ const arr_filter2 = arr.filter((i) => {
     return i % 2 == 1
 })
 
+//find => encontre determinado valor dentro do array
 const arr_find = arr.find((item) =>{
     return item == 4 //retorno baseado em true ou false
 })

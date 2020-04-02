@@ -14,10 +14,10 @@ class TodoList extends List{
         super();
 
         this.user = 'Felipe';
-        this.codeName = 'string7dev'
+        this.codeName = 'string7dev';
     }
     mostrarUsuario() {
-        console.log(this.user, this.codeName);
+        console.log(this.user, this.codeName, this.data);
     }
 }
 
