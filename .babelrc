@@ -1,0 +1,22 @@
+{
+    "presets": ["@babel/preset-env"], 
+    "plugins": [
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-transform-async-to-generator"
+    ]
+}
+/* 
+O bundle não reconhece o operador rest-spread nativamente,
+pra gente pode usar esse recurso é preciso instalar um plugin do babel dentro do node_modules. 
+1) Para isso, abre o terminal dentro da pasta "curso-es6" e escreve:
+
+    "yarn add @babel/plugin-proposal-object-rest-spread"
+
+agora que o plugin está instalado, precisamos declarar ele aqui no ./babelrc 
+2) escreva então:
+
+    "plugins": ["@babel/plugin-proposal-object-rest-spread"]
+
+
+3) pronto!    
+*/

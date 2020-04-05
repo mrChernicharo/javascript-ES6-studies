@@ -1,0 +1,23 @@
+FASE 1
+ 
+index.html ==> Construção 
+main.js ==> Construção da classe App:{
+  atributo: repositories = []
+  
+  métodos: addUser() & registerHandlers()
+}
+
+FASE 2
+
+reconstrução da estrutura html via Javascript
+  método render()
+
+
+FASE 3
+
+conexão com a API do github via axios
+inclusão do try / catch
+
+FASE 4
+
+loading
